@@ -94,6 +94,9 @@ public class DecryptorSkeleton {
      */
     public static void divideArrayValues(int[] toDecrypt) {
         // TODO
+        for(i = 0; i < toDecrypt.length; i++){
+            toDecrypt[i] = toDecrypt[i] / 5;
+        }
     }
 
 
